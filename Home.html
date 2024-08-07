@@ -6,54 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tim Hanson - Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <style>
-    section {
-      padding: 60px 0;
-    }
-    #intro {
-      padding: 220px 0;
-      text-align: left;
-    }
-    #work {
-      margin-top: -20px; /* Adjust this value to control visibility */
-    }
-    .work-header {
-      text-align: center;
-      padding: 20px 0;
-      position: relative;
-    }
-    .work-header h1 {
-      font-size: 2.5rem;
-      display: inline-block;
-      margin: 0 10px;
-    }
-    .work-header .arrows {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 10px;
-    }
-    .work-header .arrow {
-      margin: 0 20px;
-      font-size: 1rem;
-      color: black;
-      animation: bounce 2s infinite;
-    }
-    .work-header .arrow-left {
-      animation-delay: 0s;
-    }
-    .work-header .arrow-right {
-      animation-delay: 1s;
-    }
-    @keyframes bounce {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-5px);
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -75,7 +28,6 @@
             <a class="nav-link dropdown-toggle" href="#work" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Work</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="MobileNavigation.html">Mobile Navigation</a></li>
-              <li><a class="dropdown-item" href="FilmmakersWebsite.html">Filmmaker's Website</a></li>
               <li><a class="dropdown-item" href="WebsiteRedesign.html">Website Redesign</a></li>
             </ul>
           </li>
@@ -91,7 +43,7 @@
     <div class="container-lg">
       <div class="row g-5 justify-content-center align-items-center pt-5">
         <div class="col-md-5">
-          <h1>
+          <h1 class="text-start">
             <div class="display-2">Hello, I'm Tim.</div>
             <div class="display-6 text-muted">I'm a UX Designer based in Brooklyn, New York. I create digital products that enrich people's lives.</div>
           </h1>
@@ -122,14 +74,6 @@
             <h4 class="card-title">Mobile Navigation</h4>
             <p class="card-text text-muted d-none d-lg-block">Created consistent mobile navigation across three company websites.</p>
             <a href="MobileNavigation.html" class="btn btn-primary btn-lg mt-3">Read More</a>
-          </div>
-        </div>
-        <div class="card mx-3" style="width: 25rem;">
-          <div class="card-body text-left py-4">
-            <img src="/Skyler-Knutzen-Director-and-Editor_edited copy.png" class="img-fluid" alt="Filmmaker's Website">
-            <h4 class="card-title">Filmmaker's Website</h4>
-            <p class="card-text text-muted d-none d-lg-block">Updated Skyler Knutzen's portfolio with aesthetic and functionality improvements.</p>
-            <a href="FilmmakersWebsite.html" class="btn btn-primary btn-lg mt-3">Read More</a>
           </div>
         </div>
         <div class="card mx-3" style="width: 25rem;">
