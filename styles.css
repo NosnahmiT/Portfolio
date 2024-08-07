@@ -1,0 +1,48 @@
+.custom-btn {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #333;
+  color: white;
+}
+ 
+ 
+ .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .image-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .image-container img {
+    width: 80%;
+    height: auto;
+  }
+  .image-caption {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+   
+  }
+
+
+  section {
+    padding: 60px 0;
+  }
+  #intro {
+    text-align: center;
+    padding: 120px 0;
+  }
+
+.centered-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
