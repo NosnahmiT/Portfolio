@@ -125,7 +125,6 @@ section {
     text-align: left;
   }
   
-  
   #carouselExampleIndicators {
     width: 1000px;
     margin: 0 auto;
@@ -144,3 +143,23 @@ section {
   .carousel-control-next-icon {
     background-color: rgba(0, 0, 0, 0.5);
   }
+
+
+/* styles.css */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-gap: px; /* Reduced gap between columns */
+}
+
+.grid-item {
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%; /* Ensure images take full width of grid item */
+  max-width: 150px; /* Set a maximum width for the images */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the images within the grid items */
+}
