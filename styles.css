@@ -164,3 +164,7 @@ section {
   display: block;
 }
 
+.centered-container {
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center; /* Center the image within the container */
+}
